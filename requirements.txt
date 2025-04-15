@@ -1,0 +1,15 @@
+google-adk
+chainlit
+langchain
+langchain-community
+langchain-huggingface
+langchain-openai 
+langchain-core 
+langchain-redis
+fastapi
+pytest
+uvicorn 
+loguru
+langfuse
+redis         
+python-dotenv

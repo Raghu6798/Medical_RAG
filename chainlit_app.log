@@ -1,0 +1,217 @@
+2025-04-15 23:47:25.883 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:24 - Starting Medical QA Assistant
+2025-04-15 23:47:25.884 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:28 - Added parent directory to path: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent
+2025-04-15 23:47:25.884 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:31 - Importing database modules...
+2025-04-15 23:47:47.842 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:39 - All modules imported successfully
+2025-04-15 23:47:47.843 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:48 - Session ID: 413f125f-c5d4-48aa-857d-6540247abd10
+2025-04-15 23:47:47.894 | INFO     | main:<module>:30 - Chainlit mounted successfully at /chainlit
+2025-04-15 23:47:47.901 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwg-cw
+2025-04-15 23:47:47.902 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwguln
+2025-04-15 23:47:47.903 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:47.904 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:47.907 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwg-o3&sid=M2gQjN3t_Z3lZloFAAAA
+2025-04-15 23:47:47.909 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwg-o3.0&sid=M2gQjN3t_Z3lZloFAAAA
+2025-04-15 23:47:47.911 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:47.913 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:47.916 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwg-oB.0&sid=M2gQjN3t_Z3lZloFAAAA
+2025-04-15 23:47:47.918 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwg-oB&sid=M2gQjN3t_Z3lZloFAAAA
+2025-04-15 23:47:47.922 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:47.923 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:47.929 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:84 - Chat session started
+2025-04-15 23:47:47.944 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:88 - Sent initialization message
+2025-04-15 23:47:47.945 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:92 - Connecting to Neo4j vector store...
+2025-04-15 23:47:48.534 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:113 - Connected to Neo4j vector store
+2025-04-15 23:47:48.535 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:116 - Created retriever from vector store
+2025-04-15 23:47:48.535 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:119 - Building prompt template...
+2025-04-15 23:47:48.536 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:127 - Created language chain
+2025-04-15 23:47:48.539 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:135 - Chat pipeline with message history initialized
+2025-04-15 23:47:48.549 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwg-og&sid=M2gQjN3t_Z3lZloFAAAA
+2025-04-15 23:47:48.551 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:138 - Sent ready message
+2025-04-15 23:47:48.555 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:48:00.841 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:48:00.842 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:48:00.845 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:48:00.845 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.086 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:49:41.087 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:49:41.089 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.090 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.846 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/
+2025-04-15 23:49:41.848 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.927 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/auth/config
+2025-04-15 23:49:41.929 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:49:41.929 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:49:41.932 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.933 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.933 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:41.939 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/settings?language=en-US&
+2025-04-15 23:49:41.942 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.165 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/set-session-cookie
+2025-04-15 23:49:42.167 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.171 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwhQhQ
+2025-04-15 23:49:42.172 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.176 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwhQhW&sid=sTql7rs-E6DAKNPEAAAD
+2025-04-15 23:49:42.178 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwhQhW.0&sid=sTql7rs-E6DAKNPEAAAD
+2025-04-15 23:49:42.180 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.181 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.184 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwhQhe&sid=sTql7rs-E6DAKNPEAAAD
+2025-04-15 23:49:42.186 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwhQhd&sid=sTql7rs-E6DAKNPEAAAD
+2025-04-15 23:49:42.189 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.190 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:42.202 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwhQhn&sid=sTql7rs-E6DAKNPEAAAD
+2025-04-15 23:49:42.202 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:84 - Chat session started
+2025-04-15 23:49:42.217 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:88 - Sent initialization message
+2025-04-15 23:49:42.217 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:92 - Connecting to Neo4j vector store...
+2025-04-15 23:49:43.914 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:113 - Connected to Neo4j vector store
+2025-04-15 23:49:43.914 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:116 - Created retriever from vector store
+2025-04-15 23:49:43.915 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:119 - Building prompt template...
+2025-04-15 23:49:43.915 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:127 - Created language chain
+2025-04-15 23:49:43.916 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:135 - Chat pipeline with message history initialized
+2025-04-15 23:49:43.920 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:138 - Sent ready message
+2025-04-15 23:49:43.923 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:49:58.142 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:146 - Received message: hello my name is raghu , what kind of llm are you ...
+2025-04-15 23:49:58.143 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:153 - Getting context for query...
+2025-04-15 23:49:58.144 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:63 - Retrieving context for query: hello my name is raghu , what kind of llm are you 
+2025-04-15 23:49:59.473 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:66 - Retrieved 0 documents
+2025-04-15 23:49:59.473 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:68 - Context length: 0 characters
+2025-04-15 23:49:59.473 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:157 - Invoking chat chain...
+2025-04-15 23:49:59.474 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_memory:75 - Getting memory for session: 413f125f-c5d4-48aa-857d-6540247abd10
+2025-04-15 23:50:13.277 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:164 - Generated response of length: 2570
+2025-04-15 23:50:13.281 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:167 - Response sent to user
+2025-04-15 23:50:13.282 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:50:13.283 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:50:13.286 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:50:13.287 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:50:44.176 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:50:44.178 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:50:44.180 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:50:44.181 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:50:51.710 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:50:51.711 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:50:51.714 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:50:51.716 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:50:59.766 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:50:59.782 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:146 - Received message: what was my name again ...
+2025-04-15 23:50:59.782 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:153 - Getting context for query...
+2025-04-15 23:50:59.782 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:63 - Retrieving context for query: what was my name again 
+2025-04-15 23:51:00.408 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:66 - Retrieved 1 documents
+2025-04-15 23:51:00.408 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:68 - Context length: 750 characters
+2025-04-15 23:51:00.408 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:157 - Invoking chat chain...
+2025-04-15 23:51:00.408 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_memory:75 - Getting memory for session: 413f125f-c5d4-48aa-857d-6540247abd10
+2025-04-15 23:51:06.306 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:164 - Generated response of length: 19
+2025-04-15 23:51:06.319 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:51:06.321 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:167 - Response sent to user
+2025-04-15 23:51:12.310 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:51:12.311 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:51:12.314 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:51:12.315 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:52:54.805 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:52:54.805 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:52:54.808 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:52:54.808 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:56:42.273 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:24 - Starting Medical QA Assistant
+2025-04-15 23:56:42.274 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:28 - Added parent directory to path: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent
+2025-04-15 23:56:42.274 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:31 - Importing database modules...
+2025-04-15 23:57:03.186 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:39 - All modules imported successfully
+2025-04-15 23:57:03.187 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:48 - Session ID: 809a9c47-1d67-4480-8e71-a2d436ea73ae
+2025-04-15 23:57:03.238 | INFO     | main:<module>:30 - Chainlit mounted successfully at /chainlit
+2025-04-15 23:57:03.245 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj0kw
+2025-04-15 23:57:03.247 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.197 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6c3
+2025-04-15 23:57:04.198 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.202 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6c9&sid=WpcQY-qIfqLB2qPtAAAB
+2025-04-15 23:57:04.204 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6c9.0&sid=WpcQY-qIfqLB2qPtAAAB
+2025-04-15 23:57:04.205 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.207 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.210 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6cH&sid=WpcQY-qIfqLB2qPtAAAB
+2025-04-15 23:57:04.211 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6cG&sid=WpcQY-qIfqLB2qPtAAAB
+2025-04-15 23:57:04.213 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.214 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.226 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6cQ&sid=WpcQY-qIfqLB2qPtAAAB
+2025-04-15 23:57:04.226 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:84 - Chat session started
+2025-04-15 23:57:04.241 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:88 - Sent initialization message
+2025-04-15 23:57:04.241 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:92 - Connecting to Neo4j vector store...
+2025-04-15 23:57:04.858 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:113 - Connected to Neo4j vector store
+2025-04-15 23:57:04.860 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:116 - Created retriever from vector store
+2025-04-15 23:57:04.860 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:119 - Building prompt template...
+2025-04-15 23:57:04.861 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:127 - Created language chain
+2025-04-15 23:57:04.864 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:135 - Chat pipeline with message history initialized
+2025-04-15 23:57:04.880 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:138 - Sent ready message
+2025-04-15 23:57:04.883 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:04.887 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwj6ms&sid=WpcQY-qIfqLB2qPtAAAB
+2025-04-15 23:57:04.888 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:51.357 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:57:51.358 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:57:51.361 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:57:51.362 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:30.916 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit
+2025-04-15 23:58:30.916 | INFO     | main:logging_middleware:37 - Response status: 307
+2025-04-15 23:58:30.920 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/
+2025-04-15 23:58:30.922 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.198 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/auth/config
+2025-04-15 23:58:31.200 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.202 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:58:31.204 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.205 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:58:31.209 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.212 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/settings?language=en-US&
+2025-04-15 23:58:31.216 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.471 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/set-session-cookie
+2025-04-15 23:58:31.472 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.477 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjRvp
+2025-04-15 23:58:31.478 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.483 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjRvw&sid=sN3dxEp3wu6Ru7FrAAAD
+2025-04-15 23:58:31.485 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.486 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjRvx&sid=sN3dxEp3wu6Ru7FrAAAD
+2025-04-15 23:58:31.488 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.493 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjRw4&sid=sN3dxEp3wu6Ru7FrAAAD
+2025-04-15 23:58:31.494 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:31.505 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjRw3&sid=sN3dxEp3wu6Ru7FrAAAD
+2025-04-15 23:58:31.506 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:84 - Chat session started
+2025-04-15 23:58:31.520 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:88 - Sent initialization message
+2025-04-15 23:58:31.521 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:92 - Connecting to Neo4j vector store...
+2025-04-15 23:58:32.928 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:113 - Connected to Neo4j vector store
+2025-04-15 23:58:32.929 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:116 - Created retriever from vector store
+2025-04-15 23:58:32.930 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:119 - Building prompt template...
+2025-04-15 23:58:32.930 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:127 - Created language chain
+2025-04-15 23:58:32.931 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:135 - Chat pipeline with message history initialized
+2025-04-15 23:58:32.934 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_chat_start:138 - Sent ready message
+2025-04-15 23:58:32.936 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:32.939 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjSGg&sid=sN3dxEp3wu6Ru7FrAAAD
+2025-04-15 23:58:32.941 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:43.233 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:58:43.234 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:145 - Received message: So hello how are you doing , how can you help me ...
+2025-04-15 23:58:43.234 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:152 - Getting context for query...
+2025-04-15 23:58:43.235 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:63 - Retrieving context for query: So hello how are you doing , how can you help me 
+2025-04-15 23:58:45.934 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:66 - Retrieved 0 documents
+2025-04-15 23:58:45.935 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:68 - Context length: 0 characters
+2025-04-15 23:58:45.952 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:160 - Streaming response with astream...
+2025-04-15 23:58:45.953 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_memory:75 - Getting memory for session: 809a9c47-1d67-4480-8e71-a2d436ea73ae
+2025-04-15 23:58:46.375 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:58:56.327 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:170 - Streaming completed
+2025-04-15 23:59:11.985 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:59:12.000 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:145 - Received message: do you recall what did I ask previously ...
+2025-04-15 23:59:12.000 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:152 - Getting context for query...
+2025-04-15 23:59:12.001 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:63 - Retrieving context for query: do you recall what did I ask previously 
+2025-04-15 23:59:13.959 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:66 - Retrieved 1 documents
+2025-04-15 23:59:13.960 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_retrieved_context:68 - Context length: 943 characters
+2025-04-15 23:59:13.975 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:59:13.976 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:160 - Streaming response with astream...
+2025-04-15 23:59:13.976 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:get_memory:75 - Getting memory for session: 809a9c47-1d67-4480-8e71-a2d436ea73ae
+2025-04-15 23:59:22.857 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:on_message:170 - Streaming completed
+2025-04-15 23:59:52.342 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:59:52.343 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:59:52.345 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:59:52.346 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-16 00:00:27.633 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-16 00:00:27.635 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-16 00:00:27.637 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-16 00:00:27.639 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-16 00:00:32.051 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:24 - Starting Medical QA Assistant
+2025-04-16 00:00:32.051 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:28 - Added parent directory to path: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent
+2025-04-16 00:00:32.051 | DEBUG    | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:31 - Importing database modules...
+2025-04-16 00:00:54.122 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:39 - All modules imported successfully
+2025-04-16 00:00:54.123 | INFO     | C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py:<module>:48 - Session ID: 8ef0c098-d7fa-4bf3-9a61-90483a133c17
+2025-04-16 00:00:54.172 | INFO     | main:<module>:30 - Chainlit mounted successfully at /chainlit
+2025-04-16 00:00:54.190 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwjuQ-
+2025-04-16 00:00:54.191 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-16 00:00:54.191 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&

@@ -1,0 +1,12 @@
+CYPHER_PROMPT = """
+(
+    "Use the given context to provide an in-depth and structured response."
+    "Your answer should include:"
+    "- A clear and concise introduction to the topic."
+    "- Detailed explanation or relevant steps to address the query."
+    "- Practical examples or applications where possible."
+    "- A conclusion summarizing the main points."
+    "Format your response in sections with appropriate headings for clarity."
+    "Context: {context}"
+)
+"""

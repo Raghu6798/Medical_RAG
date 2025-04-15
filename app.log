@@ -1,0 +1,45 @@
+2025-04-15 23:45:42.592 | INFO     | main:<module>:25 - Starting FastAPI application
+2025-04-15 23:45:42.593 | DEBUG    | main:<module>:28 - Mounting chainlit from: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py
+2025-04-15 23:46:08.671 | INFO     | main:<module>:30 - Chainlit mounted successfully at /chainlit
+2025-04-15 23:46:10.873 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:46:10.874 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:46:10.876 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:10.877 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:12.197 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/ws/socket.io/?EIO=4&transport=polling&t=POwgdQa
+2025-04-15 23:46:12.198 | INFO     | main:logging_middleware:37 - Response status: 404
+2025-04-15 23:46:12.276 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/user
+2025-04-15 23:46:12.277 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/project/translations?language=en-US&
+2025-04-15 23:46:12.278 | INFO     | main:logging_middleware:37 - Response status: 404
+2025-04-15 23:46:12.278 | INFO     | main:logging_middleware:37 - Response status: 404
+2025-04-15 23:46:23.230 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit
+2025-04-15 23:46:23.230 | INFO     | main:logging_middleware:37 - Response status: 307
+2025-04-15 23:46:23.233 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/
+2025-04-15 23:46:23.235 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.495 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/auth/config
+2025-04-15 23:46:23.496 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.497 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/user
+2025-04-15 23:46:23.498 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.500 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/translations?language=en-US&
+2025-04-15 23:46:23.502 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.529 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/project/settings?language=en-US&
+2025-04-15 23:46:23.534 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.778 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/set-session-cookie
+2025-04-15 23:46:23.779 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.784 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwggFc
+2025-04-15 23:46:23.785 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.790 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwggFj&sid=YLs1AIuwWayc2uCbAAAA
+2025-04-15 23:46:23.794 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.796 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwggFk&sid=YLs1AIuwWayc2uCbAAAA
+2025-04-15 23:46:23.797 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.801 | INFO     | main:logging_middleware:35 - Request: POST http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwggFu.0&sid=YLs1AIuwWayc2uCbAAAA
+2025-04-15 23:46:23.802 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwggFu&sid=YLs1AIuwWayc2uCbAAAA
+2025-04-15 23:46:23.807 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.809 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:46:23.819 | INFO     | main:logging_middleware:35 - Request: GET http://localhost:8000/chainlit/ws/socket.io/?EIO=4&transport=polling&t=POwggG3&sid=YLs1AIuwWayc2uCbAAAA
+2025-04-15 23:46:24.457 | INFO     | main:logging_middleware:37 - Response status: 200
+2025-04-15 23:47:25.390 | INFO     | main:<module>:25 - Starting FastAPI application
+2025-04-15 23:47:25.390 | DEBUG    | main:<module>:28 - Mounting chainlit from: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py
+2025-04-15 23:56:41.771 | INFO     | main:<module>:25 - Starting FastAPI application
+2025-04-15 23:56:41.771 | DEBUG    | main:<module>:28 - Mounting chainlit from: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py
+2025-04-16 00:00:31.536 | INFO     | main:<module>:25 - Starting FastAPI application
+2025-04-16 00:00:31.536 | DEBUG    | main:<module>:28 - Mounting chainlit from: C:\Users\Raghu\Downloads\A2AProtocol\agent2agent\routes\query_route.py

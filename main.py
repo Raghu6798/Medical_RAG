@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from chainlit.utils import mount_chainlit
 from loguru import logger
 import sys
+import os
 
 # Configure loguru
 logger.remove()  # Remove default handler
@@ -24,9 +25,12 @@ app = FastAPI()
 # Log application startup
 logger.info("Starting FastAPI application")
 
-# Mount chainlit
-logger.debug(f"Mounting chainlit from: C:\\Users\\Raghu\\Downloads\\A2AProtocol\\agent2agent\\routes\\query_route.py")
-mount_chainlit(app=app, target="C:\\Users\\Raghu\\Downloads\\A2AProtocol\\agent2agent\\routes\\query_route.py", path="/chainlit")
+# Dynamically determine the query route path
+base_dir = os.path.dirname(__file__)  # Get the current directory
+query_route_path = os.path.join(base_dir, "agent2agent", "routes", "query_route.py")
+
+logger.debug(f"Mounting chainlit from: {query_route_path}")
+mount_chainlit(app=app, target=query_route_path, path="/chainlit")
 logger.info("Chainlit mounted successfully at /chainlit")
 
 # Add some basic logging middleware

@@ -4,7 +4,6 @@ import sys
 import pytest
 from langchain_redis.cache import RedisSemanticCache
 from langchain_core.documents import Document
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..','..')))
 from models.embedding_model.embed_model import Embed_model
 from dotenv import load_dotenv
 

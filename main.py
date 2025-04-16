@@ -25,12 +25,8 @@ app = FastAPI()
 # Log application startup
 logger.info("Starting FastAPI application")
 
-# Dynamically determine the query route path
-base_dir = os.path.dirname(__file__)  # Get the current directory
-query_route_path = os.path.join(base_dir, "agent2agent", "routes", "query_route.py")
-
 logger.debug(f"Mounting chainlit from: {query_route_path}")
-mount_chainlit(app=app, target=query_route_path, path="/chainlit")
+mount_chainlit(app=app, target="/routes/query_route.py", path="/chainlit")
 logger.info("Chainlit mounted successfully at /chainlit")
 
 # Add some basic logging middleware

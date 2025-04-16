@@ -35,7 +35,10 @@ async def logging_middleware(request, call_next):
     logger.info(f"Response status: {response.status_code}")
     return response
 
+
 if __name__ == "__main__":
     import uvicorn
-    logger.info("Starting Uvicorn server on 0.0.0.0:8000")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    port = int(os.environ.get("PORT", 8000))  # Fall back to 8000 if PORT isn't set
+    logger.info(f"Starting Uvicorn server on 0.0.0.0:{port}")
+    uvicorn.run(app, host="0.0.0.0", port=port)
+

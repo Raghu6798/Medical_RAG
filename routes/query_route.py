@@ -50,18 +50,39 @@ chat_with_message_history = None
 retriever = None
 SESSION_ID = str(uuid4())
 logger.info(f"Session ID: {SESSION_ID}")
-set_llm_cache(semantic_cache)
+
+try:
+    logger.debug("Setting up Redis semantic cache...")
+    set_llm_cache(semantic_cache)
+    logger.info("Redis semantic cache set successfully")
+except Exception as e:
+    logger.error(f"Failed to set Redis semantic cache: {str(e)}")
+    raise
 # Cypher-style system prompt
-CYPHER_PROMPT = """ (
-    "Use the given context to provide an in-depth and structured response."
-    "Your answer should include:"
-    "- A clear and concise introduction to the topic."
-    "- Detailed explanation or relevant steps to address the query."
-    "- Practical examples or applications where possible."
-    "- A conclusion summarizing the main points."
-    "Format your response in sections with appropriate headings for clarity."
-    "Context: {context}"
-) """
+
+CYPHER_PROMPT = """
+You are a highly knowledgeable AI medical assistant integrated with a clinical backend.
+
+Your goal is to assist healthcare professionals by retrieving accurate information from a medical knowledge graph and returning well-structured, medically sound responses.
+
+Respond to the user's query using the context below. Your answer **must follow a structured clinical format** when appropriate and **align with clinical communication standards**.
+
+Format:
+1. **Clinical Overview** – Summarize the topic or question concisely.
+2. **Relevant Findings** – Use the context to expand on the user query with references to known diseases, treatments, or patient symptoms.
+3. **Clinical Recommendations** – Where appropriate, offer medically accurate suggestions (not diagnoses), always framed as potential advice a physician may consider.
+4. **Graph Context** – If Cypher or knowledge graph data contributes to the answer, refer to it clearly but in plain English.
+5. **Example or Use Case** – Give an example scenario (clinical or patient-facing).
+6. **Conclusion** – Recap key points clearly.
+
+Always:
+- Use medically accurate terminology.
+- Avoid speculative advice.
+- Do not hallucinate if context is insufficient.
+- Maintain professionalism and follow clinical communication standards.
+
+Context: {context}
+"""
 
 def get_retrieved_context(query: str) -> str:
     logger.debug(f"Retrieving context for query: {query}")

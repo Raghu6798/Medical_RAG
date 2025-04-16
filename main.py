@@ -4,6 +4,10 @@ from loguru import logger
 import sys
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Configure loguru
 logger.remove()  # Remove default handler
 logger.add(
@@ -38,7 +42,6 @@ async def logging_middleware(request, call_next):
 
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 8000))  # Fall back to 8000 if PORT isn't set
+    port = int(os.getenv("PORT", 8000))  # Fall back to 8000 if PORT isn't set
     logger.info(f"Starting Uvicorn server on 0.0.0.0:{port}")
     uvicorn.run(app, host="0.0.0.0", port=port)
-

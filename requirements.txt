@@ -7,6 +7,7 @@ langchain-openai
 langchain-neo4j
 langchain-core 
 langchain-redis
+huggingface_hub[hf_xet]
 fastapi
 pytest
 uvicorn 

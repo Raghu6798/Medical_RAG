@@ -4,7 +4,7 @@ langchain
 langchain-community
 langchain-huggingface
 langchain-openai 
-langchain_neo4j
+langchain-neo4j
 langchain-core 
 langchain-redis
 fastapi

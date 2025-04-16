@@ -24,7 +24,7 @@ app = FastAPI()
 
 # Log application startup
 logger.info("Starting FastAPI application")
-mount_chainlit(app=app, target="/routes/query_route.py", path="/chainlit")
+mount_chainlit(app=app, target="chainlit_interface.py", path="/chat")
 logger.info("Chainlit mounted successfully at /chainlit")
 
 # Add some basic logging middleware

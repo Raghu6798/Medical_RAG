@@ -24,8 +24,6 @@ app = FastAPI()
 
 # Log application startup
 logger.info("Starting FastAPI application")
-
-logger.debug(f"Mounting chainlit from: {query_route_path}")
 mount_chainlit(app=app, target="/routes/query_route.py", path="/chainlit")
 logger.info("Chainlit mounted successfully at /chainlit")
 

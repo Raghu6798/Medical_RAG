@@ -38,7 +38,7 @@ try:
     from langchain_community.chat_message_histories import Neo4jChatMessageHistory
     from langchain_core.prompts.chat import MessagesPlaceholder
     from langchain_core.runnables.history import RunnableWithMessageHistory
-    from agent2agent.models.embedding_model.embed_model import Embed_model
+    from models.embedding_model.embed_model import Embed_model
     from models.llm_model.llm import LLM
     logger.info("All modules imported successfully")
 except Exception as e:

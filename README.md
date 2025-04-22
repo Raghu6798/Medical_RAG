@@ -1,4 +1,4 @@
-# Agent2Agent Protocol
+# Clinical Medicine RAG 
 
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.10-green)

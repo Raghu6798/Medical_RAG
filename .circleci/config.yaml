@@ -1,25 +1,106 @@
 version: 2.1
 
-jobs:
-  build-and-test:
+orbs:
+  python: circleci/python@2.1.1
+  docker: circleci/docker@2.2.0
+
+executors:
+  python-docker:
     docker:
       - image: cimg/python:3.10
       - image: redis:6.2
+        environment:
+          - ALLOW_EMPTY_PASSWORD=yes
+    environment:
+      REDIS_URI: redis://localhost:6379
+
+jobs:
+  lint:
+    executor: python-docker
     steps:
       - checkout
-
+      - python/install-packages:
+          pkg-manager: pip
+          packages:
+            - flake8
+            - black
+            - isort
       - run:
-          name: Install dependencies
-          command: |
-            python -m pip install --upgrade pip
-            pip install -r requirements.txt
-
+          name: Lint with flake8
+          command: flake8 . --count --max-complexity=10 --max-line-length=127 --statistics
       - run:
-          name: Run tests
+          name: Check formatting with Black
+          command: black --check .
+      - run:
+          name: Check imports with isort
+          command: isort --check .
+
+  test:
+    executor: python-docker
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          packages-file: requirements.txt
+      - run:
+          name: Create .env file
           command: |
-            pytest
+            echo "REDIS_URI=redis://localhost:6379" > .env
+            echo "Creating minimal .env file for tests"
+      - run:
+          name: Run unit tests
+          command: pytest tests/unit -v
+      - run:
+          name: Run integration tests
+          command: pytest tests/integration -v
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: test-results
+          destination: tr
+
+  build-and-push:
+    executor: docker/docker
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 20.10.14
+      - docker/check
+      - docker/build:
+          image: multimodal-rag
+          tag: ${CIRCLE_SHA1}
+      - run:
+          name: Archive Docker image
+          command: docker save -o image.tar multimodal-rag:${CIRCLE_SHA1}
+      - persist_to_workspace:
+          root: .
+          paths:
+            - image.tar
+      - when:
+          condition:
+            equal: [main, << pipeline.git.branch >>]
+          steps:
+            - docker/check
+            - docker/push:
+                image: multimodal-rag
+                tag: ${CIRCLE_SHA1}
+            - docker/push:
+                image: multimodal-rag
+                tag: latest
+
 workflows:
   version: 2
-  test:
+  build-test-deploy:
     jobs:
-      - build-and-test
+      - lint
+      - test:
+          requires:
+            - lint
+      - build-and-push:
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - main
+                - develop
